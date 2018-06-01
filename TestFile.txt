@@ -1,0 +1,76 @@
+ Command go
+
+    Compile packages and dependencies
+    Remove object files and cached files
+    Show documentation for package or symbol
+    Print Go environment information
+    Start a bug report
+    Update packages to use new APIs
+    Generate Go files by processing source
+    Download and install packages and dependencies
+    Compile and install packages and dependencies
+    List packages
+    Compile and run Go program
+    Test packages
+    Run specified go tool
+    Print Go version
+    Report likely mistakes in packages
+    Calling between Go and C
+    Build modes
+
+	
+
+    Build and test caching
+    File types
+    GOPATH environment variable
+    Internal Directories
+    Vendor Directories
+    Environment variables
+    Import path syntax
+    Relative import paths
+    Remote import paths
+    Import path checking
+    Package lists
+    Testing flags
+    Testing functions
+Subdirectories
+
+Go is a tool for managing Go source code.
+
+Usage:
+
+go command [arguments]
+
+The commands are:
+
+build       compile packages and dependencies
+clean       remove object files and cached files
+doc         show documentation for package or symbol
+env         print Go environment information
+bug         start a bug report
+fix         update packages to use new APIs
+fmt         gofmt (reformat) package sources
+generate    generate Go files by processing source
+get         download and install packages and dependencies
+install     compile and install packages and dependencies
+list        list packages
+run         compile and run Go program
+test        test packages
+tool        run specified go tool
+version     print Go version
+vet         report likely mistakes in packages
+
+Use "go help [command]" for more information about a command.
+
+Additional help topics:
+
+c           calling between Go and C
+buildmode   build modes
+cache       build and test caching
+filetype    file types
+gopath      GOPATH environment variable
+environment environment variables
+importpath  import path syntax
+packages    package lists
+testflag    testing flags
+testfunc    testing functions
